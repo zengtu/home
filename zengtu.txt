@@ -7,3 +7,8 @@ Creating a new branch is quick AND simple.
 Git --no-ff command
 git switch dev
 git push origin dev 将本地dev branch push to 远程对应的dev分支
+
+git switch -c zengtu
+git add .
+git commit -m "提交文件到zengtu分支"
+git push origin zengtu
